@@ -4,6 +4,9 @@
     { "source": "/", "destination": "/fr", "permanent": false }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/fr", "destination": "/fr/index.html" },
+    { "source": "/en", "destination": "/en/index.html" },
+    { "source": "/de", "destination": "/de/index.html" },
+    { "source": "/it", "destination": "/it/index.html" }
   ]
 }
