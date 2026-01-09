@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "CLICOM Media Manifest - Mapping des usages vers les chemins de fichiers",
+  "version": "1.0.0",
+  "baseUrl": "/assets/media/",
+  "media": {
+    "hero": {
+      "heroPrimary": {
+        "file": "hero-home-clarity-v01-1920x1080.webp",
+        "path": "/assets/media/hero-home-clarity-v01-1920x1080.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Illustration – Sites web clairs pour PME suisses",
+        "loading": "eager",
+        "usage": "Hero principal page d'accueil"
+      },
+      "heroSecondary": {
+        "file": "hero-home-business-v01-1920x1080.webp",
+        "path": "/assets/media/hero-home-business-v01-1920x1080.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Illustration – Solutions web pour entreprises",
+        "loading": "lazy",
+        "usage": "Hero alternatif page d'accueil"
+      }
+    },
+    "services": {
+      "serviceWeb": {
+        "file": "svc-services-web-v01-1200x800.webp",
+        "path": "/assets/media/svc-services-web-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Création de site vitrine",
+        "loading": "lazy",
+        "usage": "Carte service - Création de site vitrine"
+      },
+      "serviceRedesign": {
+        "file": "svc-services-redesign-v01-1200x800.webp",
+        "path": "/assets/media/svc-services-redesign-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Refonte et amélioration de site",
+        "loading": "lazy",
+        "usage": "Carte service - Refonte et amélioration"
+      },
+      "serviceBranding": {
+        "file": "svc-services-branding-v01-1200x800.webp",
+        "path": "/assets/media/svc-services-branding-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Identité visuelle et branding",
+        "loading": "lazy",
+        "usage": "Carte service - Identité visuelle"
+      },
+      "serviceLocal": {
+        "file": "svc-services-local-v01-1200x800.webp",
+        "path": "/assets/media/svc-services-local-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Visibilité locale et SEO",
+        "loading": "lazy",
+        "usage": "Carte service - Visibilité locale"
+      },
+      "serviceSupport": {
+        "file": "svc-services-support-v01-1200x800.webp",
+        "path": "/assets/media/svc-services-support-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Support et évolutions",
+        "loading": "lazy",
+        "usage": "Carte service - Support & évolutions"
+      },
+      "serviceMedia": {
+        "file": "svc-services-media-v01-1200x800.webp",
+        "path": "/assets/media/svc-services-media-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Landing pages et campagnes",
+        "loading": "lazy",
+        "usage": "Carte service - Landing pages & campagnes"
+      }
+    },
+    "pages": {
+      "aboutDesk": {
+        "file": "about-about-desk-v01-1600x1067.webp",
+        "path": "/assets/media/about-about-desk-v01-1600x1067.webp",
+        "width": 1600,
+        "height": 1067,
+        "alt": "Illustration – Notre approche et nos valeurs",
+        "loading": "lazy",
+        "usage": "Page À propos"
+      },
+      "contactChat": {
+        "file": "contact-contact-chat-v01-1600x1067.webp",
+        "path": "/assets/media/contact-contact-chat-v01-1600x1067.webp",
+        "width": 1600,
+        "height": 1067,
+        "alt": "Illustration – Parlons de votre projet",
+        "loading": "lazy",
+        "usage": "Page Contact"
+      }
+    },
+    "components": {
+      "processMethod": {
+        "file": "process-home-method-v01-1920x1080.webp",
+        "path": "/assets/media/process-home-method-v01-1920x1080.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Illustration – Notre méthode en 4 étapes",
+        "loading": "lazy",
+        "usage": "Section méthode/processus"
+      },
+      "trustShield": {
+        "file": "trust-home-shield-v01-1200x800.webp",
+        "path": "/assets/media/trust-home-shield-v01-1200x800.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "Illustration – Confiance et livraison propre",
+        "loading": "lazy",
+        "usage": "Section confiance/sécurité"
+      }
+    }
+  },
+  "fallbacks": {
+    "placeholder": "/public/media/placeholders/ph-card.svg",
+    "hero": "/public/media/placeholders/ph-hero.svg",
+    "icons": "/public/media/placeholders/ph-icons.svg"
+  }
+}
