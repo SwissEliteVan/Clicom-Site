@@ -1,0 +1,18 @@
+# robots.txt for CliCom
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all CSS, JS, and media
+Allow: /assets/
+Allow: /public/
+
+# Sitemap location
+Sitemap: https://clicom.ch/sitemap.xml
+
+# Crawl delay (optional - remove if not needed)
+# Crawl-delay: 1
