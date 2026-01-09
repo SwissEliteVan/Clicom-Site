@@ -11,7 +11,7 @@
   --color-accent: #3366ff;
   --color-white: #ffffff;
   --color-gray-light: #e8e8e8;
-  --color-gray: #a0a0a0;
+  --color-gray: #737373; /* WCAG AA compliant: 4.6:1 contrast ratio */
   --color-gray-dark: #4a4a4a;
 
   /* Accent variations */
