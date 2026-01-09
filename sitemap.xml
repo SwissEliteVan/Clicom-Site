@@ -57,6 +57,30 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://clicom.ch/fr/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clicom.ch/fr/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clicom.ch/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://clicom.ch/de/blog/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://clicom.ch/it/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clicom.ch/fr/blog/marketing-digital-pme-suisses/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  <url>
+    <loc>https://clicom.ch/fr/resultats/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clicom.ch/fr/resultats/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clicom.ch/en/results/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://clicom.ch/de/ergebnisse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://clicom.ch/it/risultati/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- English Pages -->
   <url>

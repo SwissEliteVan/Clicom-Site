@@ -280,6 +280,135 @@
     </div>
   </footer>
 
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://clicom.ch/#organization",
+        "name": "CliCom",
+        "url": "https://clicom.ch",
+        "logo": "https://clicom.ch/public/media/logo/clicom-logo.png",
+        "description": "Agence marketing digitale suisse spécialisée en stratégie digitale, growth marketing et content marketing pour PME et startups.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CH",
+          "addressLocality": "Suisse"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+41-PLACEHOLDER",
+          "email": "contact@clicom.ch",
+          "contactType": "customer service",
+          "availableLanguage": ["fr", "en", "de", "it"]
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/clicom"
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://clicom.ch/#localbusiness",
+        "name": "CliCom",
+        "image": "https://clicom.ch/public/media/logo/clicom-logo.png",
+        "@id": "https://clicom.ch",
+        "url": "https://clicom.ch",
+        "telephone": "+41-PLACEHOLDER",
+        "email": "contact@clicom.ch",
+        "priceRange": "CHF 2500-10000",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "CH",
+          "addressLocality": "Suisse"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 46.8182,
+          "longitude": 8.2275
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Switzerland"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://clicom.ch/#website",
+        "url": "https://clicom.ch",
+        "name": "CliCom",
+        "description": "Agence marketing digitale suisse",
+        "publisher": {
+          "@id": "https://clicom.ch/#organization"
+        },
+        "inLanguage": ["fr-CH", "en-CH", "de-CH", "it-CH"],
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://clicom.ch/recherche?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Service",
+        "serviceType": "Marketing Digital",
+        "provider": {
+          "@id": "https://clicom.ch/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services Marketing Digital",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Stratégie Digitale",
+                "description": "Audit, définition de personas, roadmap marketing et KPIs"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Growth Marketing",
+                "description": "Acquisition multicanale, optimisation funnel, A/B testing, rétention"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Content Marketing",
+                "description": "Stratégie de contenu, création, SEO, distribution"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+
   <!-- Scripts -->
   <script src="/assets/js/main.js"></script>
 
