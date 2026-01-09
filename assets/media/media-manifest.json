@@ -122,8 +122,8 @@
     }
   },
   "fallbacks": {
-    "placeholder": "/public/media/placeholders/ph-card.svg",
-    "hero": "/public/media/placeholders/ph-hero.svg",
-    "icons": "/public/media/placeholders/ph-icons.svg"
+    "placeholder": "/media/placeholders/ph-card.svg",
+    "hero": "/media/placeholders/ph-hero.svg",
+    "icons": "/media/placeholders/ph-icons.svg"
   }
 }
